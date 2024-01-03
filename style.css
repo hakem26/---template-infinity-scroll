@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: sans-serif;
+  font-family: sans-serif; position: relative;
 }
 
 .title {
@@ -44,6 +44,13 @@ body {
 
 .img {
   width: 100%;
+}
+
+.loader-first {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (min-width: 600px) {
